@@ -1,5 +1,5 @@
 @isTest
-public class noDeleteTest{
+private class noDeleteTest{
     @isTest static void SFDeletiontest(){
         Storage_Facility__c NewSF = new Storage_Facility__c(name = 'TestDelete1', Facility_Number__c = 6, Capicity__c = 5);
         insert NewSF;
